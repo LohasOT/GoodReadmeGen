@@ -1,3 +1,4 @@
+// External packages
 const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
@@ -5,7 +6,8 @@ const util = require('util');
 // Internal modules
 const api = require('./utils/api.js');
 const generateMarkdown = require('./utils/generateMarkdown.js');
-// array of questions for user
+
+// Inquirer prompts for userResponses
 const questions = [
   {
     type: 'input',
@@ -83,17 +85,6 @@ const questions = [
   }
 ];
 
-// function to write README file
-function writeToFile(fileName, data) {
-  fs.writeFile(fileName, data, err => {
-    if (err) {
-      return console.log(err);
-    }
-
-    console.log("Success! Your README.md file has been generated")
-  });
-}
-
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, data, err => {
     if (err) {
@@ -106,8 +97,9 @@ function writeToFile(fileName, data) {
 
 const writeFileAsync = util.promisify(writeToFile);
 
-// function to initialize program
-function init() {
+
+// Main function
+async function init() {
   try {
 
     // Prompt Inquirer questions
@@ -133,4 +125,3 @@ function init() {
 };
 
 init();
-// function call to initialize program

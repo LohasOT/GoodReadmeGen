@@ -1,6 +1,4 @@
 
-module.exports = generateMarkdown;
-
 function generateMarkdown(userResponses, userInfo) {
 
   // Generate Table of Contents conditionally based on userResponses
