@@ -1,5 +1,5 @@
-# GoodReadmeGen
-  ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/LohasOT/GoodReadmeGen?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/LohasOT/GoodReadmeGen?style=flat&logo=appveyor)
+# GoodReadmeGenerator
+  ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/LohasOT/https://github.com/LohasOT?tab=repositories?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/LohasOT/https://github.com/LohasOT?tab=repositories?style=flat&logo=appveyor)
   
   Check out the badges hosted by [shields.io](https://shields.io/).
   
@@ -8,7 +8,7 @@
   
   *The what, why, and how:* 
   
-  Node javascript to create a Readme file
+  Making a readme file by using node js
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -20,13 +20,13 @@
   
   *Steps required to install project and how to get the development environment running:*
   
-  Run node index.js
+  None
   
   ## Usage 
   
   *Instructions and examples for use:*
   
-  type node index.js on gitbash or VSCode terminal
+  type node index.js in terminal or bash
   
   ## Contributing
   
@@ -42,7 +42,7 @@
   
   ## License
   
-  The Unlicense
+  None
   
   ---
   
