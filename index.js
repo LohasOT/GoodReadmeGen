@@ -1,8 +1,10 @@
+const axios = require('axios');
 const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 // array of questions for user
+
 const questions = [
   {
     type: 'input',
@@ -56,10 +58,23 @@ const questions = [
   {
     type: 'input',
     message: "Provide Your Email",
-    name: 'Email'
+    name: 'email'
   }
 ];
 
+inquirer
+  .prompt(questions)
+
+  .then((answers) => {
+    // Use user feedback for... whatever!!
+  })
+  .catch((error) => {
+    if (error.isTtyError) {
+      // Prompt couldn't be rendered in the current environment
+    } else {
+      // Something else went wrong
+    }
+  });
 // // function to write README file
 // function writeToFile(fileName, data) {
 // }
