@@ -8,45 +8,24 @@ const questions = [
     type: 'input',
     message: "What is your GitHub username? (No @ needed)",
     name: 'username',
-    validate: function (answer) {
-      if (answer.length < 1) {
-        return console.log("A valid GitHub username is required.");
-      }
-      return true;
-    }
   },
   {
     type: 'input',
     message: "What is the name of your GitHub repo?",
     name: 'repo',
-    validate: function (answer) {
-      if (answer.length < 1) {
-        return console.log("A valid GitHub repo is required for a badge.");
-      }
-      return true;
-    }
+
   },
   {
     type: 'input',
     message: "What is the title of your project?",
     name: 'title',
-    validate: function (answer) {
-      if (answer.length < 1) {
-        return console.log("A valid project title is required.");
-      }
-      return true;
-    }
+
   },
   {
     type: 'input',
     message: "Write a description of your project.",
     name: 'description',
-    validate: function (answer) {
-      if (answer.length < 1) {
-        return console.log("A valid project description is required.");
-      }
-      return true;
-    }
+
   },
   {
     type: 'input',
@@ -76,19 +55,19 @@ const questions = [
   },
   {
     type: 'input',
-    message: "Provide Your Email"
+    message: "Provide Your Email",
     name: 'Email'
   }
 ];
 
-// function to write README file
-function writeToFile(fileName, data) {
-}
+// // function to write README file
+// function writeToFile(fileName, data) {
+// }
 
-// function to initialize program
-function init() {
+// // function to initialize program
+// function init() {
 
-}
+// }
 
-// function call to initialize program
-init();
+// // function call to initialize program
+// init();
