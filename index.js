@@ -62,27 +62,30 @@ const questions = [
   }
 ];
 
-inquirer
-  .prompt(questions)
-
-  .then((answers) => {
-    // Use user feedback for... whatever!!
-  })
-  .catch((error) => {
-    if (error.isTtyError) {
-      // Prompt couldn't be rendered in the current environment
-    } else {
-      // Something else went wrong
+function writeToFile(fileName, data) {
+  fs.writeFile(fileName, data, err => {
+    if (err) {
+      return console.log(err);
     }
+
+    console.log("Success! Your README.md file has been generated")
   });
-// // function to write README file
-// function writeToFile(fileName, data) {
-// }
+}
 
-// // function to initialize program
-// function init() {
+const writeFileAsync = util.promisify(writeToFile);
 
-// }
+// function to initialize program
+async function init() {
+  try {
+  const userResponses = await inquirer.prompt(questions);
 
-// // function call to initialize program
-// init();
+  const markdown = generateMarkdown(userResponses)
+
+  await writeFileAsync('ExampleREADME.md', markdown);
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+// function call to initialize program
+init();
