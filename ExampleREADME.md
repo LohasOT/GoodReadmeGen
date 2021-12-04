@@ -1,5 +1,5 @@
 
-  # d
+  # a
 
   ##Table of Content
 
@@ -9,31 +9,31 @@
   * [Tests](#tests)
 
   ## Description
-  e
+  a
 
   ## Installation
 
   *Steps required to install project and how to get the development environment running:*
 
-  d
+  a
 
   ## Usage
 
   *Instructions and examples for use:*
 
-  e
+  a
 
   ## Contributing
 
   *If you would like to contribute it, you can follow these guidelines for how to do so.*
 
-  d
+  a
 
   ## Tests
 
   *Tests for application and how to run them:*
 
-  e
+  a
 
   ## License
 
@@ -44,6 +44,6 @@
 
   For any questions, please contact me with the information below:
 
-  GitHub: d
+  GitHub: a
 
-  Email: e
+  Email: a

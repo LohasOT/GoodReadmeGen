@@ -72,8 +72,6 @@ function writeToFile(fileName, data) {
   });
 }
 
-const writeFileAsync = util.promisify(writeToFile);
-
 // function to initialize program
 async function init() {
   try {
@@ -81,7 +79,7 @@ async function init() {
 
   const markdown = generateMarkdown(userResponses)
 
-  await writeFileAsync('ExampleREADME.md', markdown);
+  await writeToFile('ExampleREADME.md', markdown);
   } catch (error) {
     console.log(error);
   }
