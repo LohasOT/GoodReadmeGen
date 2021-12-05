@@ -17,7 +17,7 @@
 
 
   ## Description
-  This is a project about creating a readme file that has all information of a readme file
+  This is a project about creating a readme file that has all information needed for a readme file. User will be promted with questions about their name, projects, and contact information to input into the readme file.
 
   ## Installation
 
