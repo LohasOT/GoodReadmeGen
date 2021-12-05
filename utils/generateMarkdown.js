@@ -4,6 +4,8 @@ function generateMarkdown(data) {
 
   # ${data.title}
 
+  ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/${data.username}/${data.repo}?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/${data.username}/${data.repo}?style=flat&logo=appveyor)
+
   ## Table of Content
 
   - [Description](#description)

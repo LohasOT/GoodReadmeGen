@@ -2,6 +2,8 @@
 
   # Good Readme Generator
 
+  ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/LohasOT/GoodReadmeGen?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/LohasOT/GoodReadmeGen?style=flat&logo=appveyor)
+
   ## Table of Content
 
   - [Description](#description)
