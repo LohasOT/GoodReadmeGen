@@ -50,7 +50,7 @@ function generateMarkdown(data) {
 
   For any questions, please contact me with the information below:
 
-  GitHub: ${data.username}
+  GitHub: https://github.com/${data.username}
 
   Email: ${data.email}
 `;
