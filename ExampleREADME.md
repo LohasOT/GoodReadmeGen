@@ -1,6 +1,6 @@
 
 
-  # c
+  # Good Readme Generator
 
   ## Table of Content
 
@@ -14,40 +14,40 @@
 
 
   ## Description
-  d
+  This is a project about creating a readme file that has all information of a readme file
 
   ## Installation
 
   *Steps required to install project and how to get the development environment running:*
 
-  e
+  You will need "inquirer" package to use this program.
 
   ## Usage
 
   *Instructions and examples for use:*
 
-  f
+  Type in npm install inquirer in terminal then type in node index.js in terminal to run the program.
 
   ## Contributing
 
   *If you would like to contribute it, you can follow these guidelines for how to do so.*
 
-  g
+  None
 
   ## Tests
 
   *Tests for application and how to run them:*
 
-  h
+  None
 
   ## License
 
-  GNU AGPLv3
+  The Unlicense
 
   ## Questions
 
   For any questions, please contact me with the information below:
 
-  GitHub: a
+  GitHub: https://github.com/LohasOT
 
-  Email: i
+  Email: oliverhoang93@gmail.com
